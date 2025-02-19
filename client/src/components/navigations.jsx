@@ -7,8 +7,9 @@ export default function Navigation({ user, setUser, token, setToken }) {
 
   return (
     <>
+    <nav>
       <div id="navbar">
-        <h1>Project 1</h1>
+        <h1>J's Shop</h1>
         <div id="links">
         <Link to="/">Home</Link>
         <Link to="/account">My Account</Link>
@@ -17,6 +18,7 @@ export default function Navigation({ user, setUser, token, setToken }) {
         <Link to="/shop">Shop</Link>
         </div>
       </div>
+    </nav>
     </>
   );
 }

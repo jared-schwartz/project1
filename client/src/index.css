@@ -1,7 +1,6 @@
 #navbar {
     background-color: #1f2021;
     height: 75px;
-    border-radius: 5px;
     padding: 10px 10px 10px 10px;
     color: white;
     display: flex;
@@ -9,11 +8,24 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    width: 98%%;
+}
+
+@media (max-width: 768px) { 
+    #navbar {
+        display: block;
+        height: 125px;
+        width: 99%;
+    }
+    body {
+        margin: 0;
+    }
 }
 
 body {
     background-color: #919090;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 #links {
     color: white;
@@ -31,6 +43,9 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+}
 
 #register-page form {
     background-color:#1f2021;
@@ -43,4 +58,29 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    margin-top: 10px;
+}
+#register-page h1 {
+    text-decoration: underline;
+}
+
+#login-page form {
+    background-color:#1f2021;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    margin-top: 10px;
+}
+#login-page h1 {
+    text-decoration: underline;
 }
