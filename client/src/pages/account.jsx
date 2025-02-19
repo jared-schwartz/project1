@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 export default function Account({ user, setUser, token, setToken }) {
   const navigate = useNavigate();
   ;
@@ -9,7 +8,8 @@ export default function Account({ user, setUser, token, setToken }) {
   return (
     <>
       <div id="account-page">
-        <h1>My Account</h1>
+        <h2>My Account</h2>
+
       </div>
     </>
   );

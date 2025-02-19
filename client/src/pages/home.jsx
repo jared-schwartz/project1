@@ -8,7 +8,8 @@ export default function Home({ user, setUser, token, setToken }) {
   return (
     <>
       <div id="home-page">
-        <h1>Home Page</h1>
+        <h2>Welcome to J's Shop! Check out some products in our shop!</h2>
+
       </div>
     </>
   );

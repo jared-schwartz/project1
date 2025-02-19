@@ -9,8 +9,9 @@ export default function Register({ user, setUser, token, setToken }) {
   return (
     <>
       <div id="register-page">
-        <h1>Register</h1>
+
             <form>
+                <h1>Register</h1>
                 <label>First Name:</label>
                 <br/>
                     <input
@@ -62,6 +63,11 @@ export default function Register({ user, setUser, token, setToken }) {
                 <br/>
                 <br/>
                 <button type="submit">Create Account</button>
+                <br />
+                <br />
+                <h3>*Password must contain 8 characters.*</h3>
+                <br />
+                <a href="./login"><b>Already have an account? Login here!</b></a>
             </form>
       </div>
     </>
